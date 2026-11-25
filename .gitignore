@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local uv files (used only to run the project locally with `uv run`,
+# not part of the deliverable; the game runs with plain `python` + pygame)
+pyproject.toml
+uv.lock
+.python-version
+
+# Raw source media (originals kept locally, not committed)
+archives/
+
+# OS / editor
+.DS_Store
+__MACOSX/
+.idea/
+.vscode/
+*.swp
